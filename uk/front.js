@@ -1,0 +1,488 @@
+export default {
+
+  /* Layouts */
+  _lt: {
+
+    default: {
+      cookiesBanner: 'Ми використовуємо реп’яшки🍃, щоб вам було легше користуватися нашим вебсайтом. Продовжуючи користування, ви погоджуєтеся з нашою політикою реп’яшків. {button}',
+      readMore: 'Читати більше…',
+    },
+
+  },
+
+  /* Common */
+  _cm: {
+    lastRevision: 'Останнє оновлення:',
+    contactUs: 'Звʼяжіться з нами',
+    followUs: 'Слідкуйте за нами',
+    reviewUs: 'Оцініть нас',
+    close: 'Закрити',
+    cancel: 'Скасувати',
+  },
+
+  /* Languages */
+  _lg: {
+    french: 'Французька',
+    english: 'Англійська',
+    polish: 'Польска',
+    spanish: 'Іспанська',
+    swedish: 'Шведська',
+    turkish: 'Турецька',
+    indonesian: 'Індонезійська',
+    portuguese: 'Португальска',
+    simplifiedChinese: 'Китайська спрощена',
+    traditionalChinese: 'Китайська традиційна',
+    dutch: 'Голандська',
+    ukrainian: 'Українська'
+  },
+
+  /* Pluralization */
+  _pl: {
+    seconds: 'second | second | seconds',
+    features: 'feature | feature | features',
+  },
+
+  /* Components */
+  _cp: {
+
+    /* Header component */
+    header: {
+      sidebarHint: 'Спробуйте усі наші функції, натиснувши на значок меню тут! 😉',
+      logIn: 'Увійти',
+      myAccount: 'Моя обліківка',
+      switchAccount: 'Змінити обліківку',
+      logout: 'Вийти',
+    },
+
+    /* Footer component */
+    footer: {
+      madeWithLove: 'Affinitweet — це розважально-статистична платформа, що базується на твітері і яка була створена 2015 року з ❤️ у Франції.',
+      allRightsReserved: 'Усі права збережено.',
+      about: 'Про нас',
+      changelog: 'Зміноопис',
+      legal: 'Права',
+      partners: 'Партнери',
+    },
+
+    stateButton: {
+      hold: 'Утримуйте, щоб продовжити',
+      submit: 'Натисніть, щоб продовжити',
+      loading: 'Дія виконується…',
+      cancel: 'Скасувати',
+    },
+
+    clearHistory: {
+      title: 'Очистити історію',
+      description: 'Очищуючи свою історію, ви видалите всю інформацію і зображення ваших поточних збережених результаті.',
+      description2: 'Ви не будете здатні переглядати свох попередні результати після очищення, ви справді хочете це зробити?',
+      holdButton: 'Утримуйте, щоб очистити',
+      loadingButton: 'Очищення історії…',
+      successModal: 'Вашу історію очищено.',
+    },
+
+    deleteAccount: {
+      title: 'Видалити обліківку',
+      description: 'Щось пішло не так? Розкажіть нам про це в нашому твітері, щоб ми вжили заходів!',
+      description2: 'Видаляючи обліківку, всі дані про вас буде очищено, зокрема історію. Жодних даних не залишиться і ви автоматично вийдете з Affinitweet.',
+      description3: 'Ви не зможете відновити свою поточну обліківку після видалення, ви справді хочете це зробити?',
+      holdButton: 'Утримуйте, щоб видалити',
+      loadingButton: 'Видалення обліківки…',
+      successModal: 'Вашу обліківку видалено.',
+    },
+
+  },
+
+  /* Features */
+  _ft: {
+
+    new: 'Нове',
+    popular: 'Популярне',
+    real: 'Корисне',
+    fun: 'Забавки',
+
+    list: {
+
+      friendships: {
+        description: 'Усе, що вам потрібно знати про зв’язки між вами та користувачем! 🙌',
+        longDescription: 'Завдяки «Дружбам» ви дізнаєтесь, наскільки міцно ви дружите з тим чи тим користувачем: що більше у вас блакитних кульок, то міцнішbq зв’язок! Введіть прізвисько вибраної людини у твітері та відкрийте свої дружби!',
+      },
+      'common-friends': {
+        description: 'Дізнайтеся про спільних друзів з іншим користувачем! 👥',
+        longDescription: '«Спільні друзі» дозволяють дізнатися про підписки/друзів, які є спільними для вас та іншої людини. Чи збігаються у вас смаки, й наскільки?',
+      },
+      'top-friends': {
+        description: 'Дізнайтеся про своїх найкращих твітерських друзів за останній час! 🤗',
+        longDescription: '«Найкращі друзі» дозволять дізнатися ваших вибраних приятелів у твітері. Ми встановлюємо ранжування, аналізуючи інформацію, надіслану та отриману у вашій обліківці. Потім ми підраховуємо, додаємо та сортуємо все це, щоб показати ваших найкращих друзів!',
+      },
+      'famous-followers': {
+        description: 'Дізнайтеся про найпопулярніших людей серед ваших читачів! 💅',
+        longDescription: '«Популярні читачі» дозволяють дізнатися, хто з ваших читачів має найбільше послідовників. Ми збираємо всіх ваших читачів, аби порівняти їх і показати ваших популярних послідовників!',
+      },
+      valentine: {
+        description: 'We know who your Valentine will be this year… What about you? 💏',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that we are trying to stick to reality, will our Valentine delight you… ?',
+      },
+      'twitter-activity': {
+        description: 'Discover the summary of your activity and your Twitter statistics 📊',
+        longDescription: 'Thanks to Twitter Activity, you will know when you tweet most often, how many interactions (impressions, retweets, likes, replies) you have in total and the distribution of your tweets.',
+      },
+      'first-follower': {
+        description: 'Discover who\'s the first person who followed you on Twitter 1️⃣',
+        longDescription: 'Thanks to the First Follower, you\'ll know who is your first follower and when they followed you (or the oldest one, because if you\'ve been unfollowed in the meantime, we can\'t know).',
+      },
+      'first-following': {
+        description: 'Discover who\'s the first person you followed on Twitter 1️⃣',
+        longDescription: 'Thanks to the First Following, you\'ll know who is your first following and when you followed them (or the oldest one, because if you\'ve unfollowed people in the meantime, we can\'t know).',
+      },
+      'secret-crush': {
+        description: 'Someone loves you in secret… and hides it from you… 😳',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?',
+      },
+      'hidden-twin': {
+        description: 'Yes, you have a hidden twin…. who the hell is it? 🤔',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Hidden Twin will impress you, good or bad?',
+      },
+      'stolen-kiss': {
+        description: 'Who wants to steal a kiss from you on a street corner? 💋',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Stolen Kiss will impress you, good or bad?',
+      },
+      'may-day': {
+        description: 'Who\'s your best bouquet for this year? 💐',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to make someone very happy!',
+      },
+      'halloween-duo': {
+        description: 'Who will you be most afraid with this year? 🎃👻',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to be scary for Halloween this year!',
+      },
+      'tweet-rate': {
+        description: 'Compare your tweet rate with another user! 📊',
+        longDescription: 'The Tweet Rate allows you to know the average number of tweets you publish per day since you registered on Twitter and compare yourself with another person! Are you the most active?',
+      },
+      'first-to-follow': {
+        description: 'Find out when you\'ve been following a user and vice versa! 😮',
+        longDescription: 'The First To Follow allows you to discover the date and time you followed another person on Twitter, and vice versa! Who followed the other first?',
+      },
+      'emoji-mood': {
+        description: 'What are the emojis you tweet the most? 🤖',
+        longDescription: 'Thanks to the Emoji Mood, you will discover which emotions you have been tweeting the most recently… Would you be willing to bet on your TOP 3?',
+      },
+      'new-years-kiss': {
+        description: 'Who are you going to kiss this year under the mistletoe? 😘',
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you will kiss someone at midnight!',
+      },
+
+    },
+
+  },
+
+  /* Pages */
+  _pg: {
+
+    /* Welcome page */
+    welcome: {
+      title: 'Ласкаво просимо',
+      welcomeToAffinitweet: 'Ласкаво просимо до Affinitweet&nbsp;&nbsp;🎉',
+      helloYou: 'Здрастуйте, {username}&nbsp;&nbsp;😊',
+      proudToWelcomeYou: 'Вітаю, {username}, vи дуже раді познайомитися з вами і раді вітати вас серед наших понад 6 мільйонів користувачів!',
+      onboardingCreation: 'We are delighted to have you back with us! We created this little onboarding to make sure you know everything before everyone else…',
+      next: 'Далі',
+      littleQuestion: 'Quick question…',
+      doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?',
+      iWantToFollowYou: 'Я хочу читати вас😊',
+      iDontWantToFollowYou: 'Ні дякую, мені і так добре!',
+      great: 'Чудово&nbsp;&nbsp;🥰',
+      doYouWantToEnableNotifications: 'So, while you\'re at it, do you want to be notified of our tweets so you can be the first to test our new features?',
+      iWantToBeNotified: 'I also want to be notified 😇',
+      iDontWantToBeNotified: 'No, I just want the tweets!',
+      noProblem: 'No problem&nbsp;&nbsp;😉',
+      noProblemDescription: 'After all you\'re right, we hardly know each other! Maybe next time then, we hope you\'ll have fun on Affinitweet 💜',
+      nice: 'Nice&nbsp;&nbsp;🤗',
+      niceDescription: 'Hop… hop… and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜',
+      awesome: 'Awesome&nbsp;&nbsp;😍',
+      awesomeDescription: 'Hop… hop… and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜',
+      uhoh: 'Uh oh… 😕',	
+      uhohDescription: 'Twitter, you\'ve got a problem…<br />Unfortunately Twitter isn\'t able to make you follow us at the moment. Please <u>click on the follow button</u> to do it 😊',
+      letsGo: 'Гайда!',
+    },
+
+    /* Home page */
+    index: {
+      title: 'Домівка',
+      description: 'Найкраще місце для розваг разом із друзями у твітері! Перевірте свою статистику і не лише це!',
+      titleH1: 'Найкраще місце для розваг разом із друзями у твітері!',
+      titleH2: 'Перевірте свою статистику і не лише це!',
+      highlights: 'Основні особливості',
+      generatedResults: 'Прекрасно згенеровані результати',
+      generatedResultsDescription: 'Affinitweet відомий своїми пречудово створеними зображеннями, ми використовуємо лише найкращі інструменти, щоб досягти результату.',
+      userConsentPrivacy: 'Користувацька згода і приватність',
+      userConsentPrivacyDescription: 'Усе, що ми робимо на Affinitweet з вашими даними, пояснено у нашій політиці конфеденційності, без підводних каменів, без автопідписування чи автотвітівn.',
+      worldFamousLeader: 'Усесвітньо відомий лідер',
+      worldFamousLeaderDescription: 'Affinitweet відкрито у лютому 2014, і понад два мільйони користувачів використовують наші сервіси у всьому світі.',
+      fastRealTimeResults: 'Швидкі результати у реальному часі',
+      fastRealTimeResultsDescription: "Ми побудували Affinitweet за допомогою останніх вебтехнологій, тому це максимально швидко завдяки реальному часу на сторінках особливостей сайту.",
+      noAdsNoVirus: 'Немає настирливої реклами чи вірусів',
+      noAdsNoVirusDescription: "Affinitweet було створено виключно для розваг, тут немає вірусів, а є лише 2 рекламні оголошенняна цілому сайті (без вигулькових сповіщень чи переспрямувань).",
+      multilingualOpen: 'Багатомовні і відкриті',
+      multilingualOpenDescription: 'Affinitweet доступний декількома мовами, і кожен може зробити внесок, додавши свою мову.',
+      trustpilotH1: "Перевірте відгуки наших користувачів на Trustpilot!",
+      trustpilotH2: 'Нас оцінило вже близько {rate} користувачів, чи не станете ви наступним?',
+      trustpilotButton: 'Подивитися і написати відгук',
+      statistics: 'Статистика',
+      totalUsers: '6 мільйонів',
+      totalUsersDescription: 'Користувачів довіряють нам і нашим сервісам',
+      monthlyUsers: '400 000',
+      monthlyUsersDescription: 'Унікальних користувачів, які повертаються пересічно за місяць',
+      totalFeatures: '20 мільйонів',
+      totalFeaturesDoneDescription: 'Особливостей зроблено з нашого відкриття в 2014',
+      ourFeatures: 'Особливості',
+      seeDetailedList: 'Подивитися детальний список',
+      latestNews: 'Останні новини',
+      getInTouch: 'Залишайтеся на звʼязку!',
+      getInTouchP1: 'Ми доступні будь-якого часу в нашому твітері {twitterName}.',
+      getInTouchP2: 'Стежте за нами і ви знатимете все про майбутні оновлення!',
+      getInTouchP3: 'Не соромтеся надсилати нам твіти чи приватні повідомлення, якщо ви маєте питання, пропозиція чи знайдена хиба.',
+      getInTouchP4: 'Якщо ви маєте комерційну пропозицію, то ви можете написати нам на електронну пошту, дивіться наступну сторінку — {pageName}.',
+    },
+
+    /* User profile page */
+    profile: {
+      title: 'Сторінка',
+      description: 'Обліківка, налаштування й історія вашої сторінки.',
+      joinBeta: 'Долучіться до програми бета-тестування, щоб випробувати нові особливості до оприлюднення!',
+      betaTerms: 'Бета-тестування безкоштовне. Деякі особливості можуть не працювати і можуть бути модифікованими до оприлюднення.',
+      applyForFree: 'Подати заявку безкоштовно',
+      noThanks: 'Ні, дякую',
+      profile: 'Сторінка',
+      history: 'Історія',
+      preferences: 'Уподобання',
+      language: 'Мова',
+      by: 'від',
+      addLanguage: 'додати мову…',
+      contributeOnGitHub: 'зробити внесок на GitHub',
+      account: 'Обліківка',
+      followers: 'Підписники',
+      followings: 'Ви читаєте',
+      noHistory: 'Немає даних історії.',
+      autoTweet: 'Результати твіту',
+      autoTweetDescription: 'Увімкніть цю опцію, щоб автоматично зробити твіт про свої результати. Ми опублікуємо твіт, коли результати будуть готові. Лише один твіт.',
+      saveResults: 'Зберегти результати',
+      saveResultsDescription: 'Увімкніть цю опцію, щоб зберегти свої результати до історії (назва особливості + зображення + час). Поза вибором, ми не зберігаємо ваші результати.',
+      emojis: 'Пакунок усміхайликів',
+      iOSemojis: 'iOS (Apple)',
+      iOSemojisDescription: 'Ваші результати створюватимуться з усміхайликами iOS.',
+      androidEmojis: 'Android (Google)',
+      androidEmojisDescription: 'Ваші результати створюватимуться з усміхайликами Android.',
+      clearHistory: 'Очистити історію',
+      clearHistoryDescription: 'Очистити історію результатів Affinitweet.',
+      deleteAccount: 'Видалити обліківку',
+      deleteAccountDescription: 'Видаливши свій обліковий запис в Affinitweet, ви все загубите.',
+      show: 'переглянути',
+      showMore: 'Показати більше…',
+      saved: 'Збережено',
+    },
+
+    /* Feature page */
+    feature: {
+      login: 'Увійдіть, щоб продовжити…',
+      startFeature: "Ходімо!",
+      betaFeature: 'Ця особливість наразі перебуває у стадії бетм і доступна лише для користувачів, які є частиною програми бета-тестування. Ви можете подати заявку на цю програму, якщо хочете протестувати цю особливість.',
+      applyForFree: 'Подати заявку безкоштовно',
+      results: "Ось ваші результати!",
+      tweetResults: 'Результати твітів',
+      tweetingResults: 'Твітимо…',
+      requireAutoTweetDescription: "Чи бажаєте ви ввімкнути автоматичне надсилання твітів з результатом? Ви зможете вимкнути це налаштування зі свого профілю.",
+      yesEnable: 'Так, увімкнути',
+      no: 'Ні',
+      retry: 'Ще раз!',
+      doYouWantToKnowMore: 'Ви дійсно хочете дізнатися більше про свою облівку у Twitter?',
+      discoverOtherFeatures: 'Дізнайтеся більше про особливості',
+    },
+
+    /* Features listing page */
+    features: {
+      title: 'Особливості',
+      description: 'Використайте всі наші особливості, щоб знати все про свій обліковий запис Twitter.',
+      searchFeatures: 'Пошук особливостей… (як-от Top Friends, Valentine)',
+      noFeatureFound: 'На жаль, жодна особливість не відповідає цьому пошуковому запиту… 😔',
+      resetSearch: 'Скинути пошук',
+      letsGo: 'Гайда!',
+    },
+
+    /* Beta program page */
+    'beta-program': {
+      title: 'Програма бета-тестування',
+      description: 'Подайте заявку на бета-тестування безкоштовно і спробуйте наші бета-особливості, перш ніж вони стануть доступними для загального користування!',
+      betaProgramDescription: "Ця програма була створена для тестування нових особливостей, перш ніж вони будуть опубліковані, і для впевненості, що вони працюють належним чином. Беручи участь у цій програмі, ви зможете їх протестувати.",
+      currentBetaFeatures: 'Наразі в програмі бета-тестування {amount} {features}',
+      noCurrentBetaFeatures: 'Наразі в програмі бета-тестування немає жодної особивості, але незабаром з’явиться!',
+      fewThingsToKnow: 'Декілька речей, які вам варто знати про бета-тестування:',
+      li1: "100% безкоштовно",
+      li2: "Обмежена кількість місць",
+      li3: 'Ви можете вийти з програми коли вам заманеться',
+      li4: 'Спеціалізована та пріоритетна підтримка в ПП у Twitter',
+      li5: 'Бета-особливості можуть не працювати належним чином',
+      li6: 'Бета-особливості можуть змінюватися в будь-який час',
+      thanksForInterest: 'Thank you for your interest regarding the Beta program 💜',
+      alreadyApplied: "Ви вже в програмі бета-тестування,<br />велике спасибі за ваш інтерес 💜",
+      leaveBetaProgram: 'Покинути програму бета-тестування',
+      leavingTerms: "Якщо ви залишите програму бета-тестування, можливо, ви не зможете подати заявку ще раз, якщо немає вільних місць.",
+      placesAvailable: 'наявно 500 місць! 🎟',
+      accountEligible: 'Ваш обліковий запис має право подати заявку на бета-тестування. Лишилось зовсім небагато місць!',
+      yourEmailAddress: 'Ваша електронна скринька…',
+      applyForFree: 'Подайте заявку безкоштовно',
+      applyTerms: 'Подаючи заявку на бета-тестування, ви погоджуєтесь на отримання сповіщень і реклами (максимум один раз на тиждень)',
+      noPlaceAvailable: 'Не лишилось вільних місць 😕',
+      betaProgramFull: "На жаль, програма бета-тестування заповнена, і наразі ми не можемо надати вільний доступ, але ви все одно можете спробувати отримати доступ за допомогою методів у наступному блоці!",
+      keepUpdated: 'Ми повідомимо вас, коли з’являться вільні місця у {ourTwitterAccount}.',
+      ourTwitterAccount: 'наша обліківка у Twitter',
+      or: 'або',
+      earnYourAccess: 'Заробіть свій доступ! 🎁',
+      writeReview: '#1 — Напишіть відгук про нас на {onTrustpilot} і надішліть нам посилання у ПП нашої Twitter обліківки. Як тільки ви це зробите, то ми надамо вам доступ.',
+      onTrustpilot: 'на Trustpilot',
+      winContest: 'або #2 — Беріть участь у наших конкурсах на {ourTwitterAccount}, щоби виграти доступ, слідкуйте за нами та вмикайте сповіщення, щоби бути в курсі всіх подій.',
+      randomDraws: 'Кожен із цих конкурсів закінчується випадковим жеребкуванням, зробленим на {pickaw}, тому кожен має шанс на перемогу.',
+      welcomeToTheBetaProgram: 'Ласкаво просимо до програми бета-тестування! Тепер ви можете тестувати бета-особливості 😊',
+      seeYouSoonBetaProgram: 'Дякуємо за участь у програмі бета-тестування, не можу вас вже дочекатися!',
+    },
+
+    /* Legal page */
+    legal: {
+      title: 'Legal',
+      description: 'Information about us and cookies.',
+      intro: 'In accordance with Article 6 of the law n° 2004-575 of 21 June 2004 on trust in the digital economy, users of the site {site} are informed of the identity of the various parties involved in its implementation and monitoring:',
+      owner: 'Owner',
+      creator: 'Creator',
+      publisher: 'Publication manager',
+      publisherText: 'The person responsible for publication is a natural person.',
+      webmaster: 'Webmaster',
+      host: 'Host',
+      requestAddress: 'Full address available on request by email at {email}.',
+      warningCookies: 'About cookies',
+      p1: 'A cookie is a small text file sent to your browser via the website you are viewing. With this cookie, information about your visit is stored on the website, such as your preferred language and other settings. This may facilitate your next visit to this site and make it more useful to you. Cookies play an important role. Without cookies, using the Web could be much more frustrating.',
+      t1: 'What is the applicable legal frame?',
+      p2: "In amending Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC, the European legislator laid down the principle that the storage of information on a user's equipment or access to information already stored should only be carried out with the user's prior consent, unless these actions are strictly necessary for the provider to deliver a service expressly requested by the user. Article 32-II of the law of 6 January 1978 takes over this principle.",
+      t2: 'This site uses cookies for the following purposes:',
+      'l1-1': 'To help us recognize your browser and to save the preferences you have set in your previous visits to this site',
+      'l1-2': 'To help us measure and study the effectiveness of our online interactive content, features, advertising and other communications',
+      'l1-3': 'To monitor the analytical data on the site, the use made of the site by users and to improve the services and content of this site.',
+      t3: 'How do I delete cookies linked to my browser?',
+      p3: "You can choose to disable cookies in your browser at any time by following the instructions provided in your browser's help files. You can also set your cookies directly in your browser settings:",
+    },
+
+    /* Terms of service page */
+    terms: {
+      title: 'Terms of service',
+      description: 'Consult our general terms and conditions of use.',
+      h1: 'Terms',
+      p1: 'By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.',
+      h2: 'Use Licence',
+      'l1-1': "Permission is granted to temporarily download one copy of the materials (information or software) on Affinitweet's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
+      'l2-1': 'modify or copy the materials;',
+      'l2-2': 'use the materials for any commercial purpose, or for any public display (commercial or non-commercial);',
+      'l2-3': "attempt to decompile or reverse engineer any software contained on Affinitweet's website;",
+      'l2-4': 'remove any copyright or other proprietary notations from the materials; or',
+      'l2-5': 'transfer the materials to another person or "mirror" the materials on any other server.',
+      'l1-2': 'This license shall automatically terminate if you violate any of these restrictions and may be terminated by Affinitweet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.',
+      h3: 'Disclaimer',
+      'l3-1': "The materials on Affinitweet's website are provided on an 'as is' basis. Affinitweet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
+      'l3-2': 'Further, Affinitweet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.',
+      h4: 'Limitations',
+      p2: "In no event shall Affinitweet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Affinitweet's website, even if Affinitweet or a Affinitweet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
+      h5: 'Accuracy of materials',
+      p3: "The materials appearing on Affinitweet's website could include technical, typographical, or photographic errors. Affinitweet does not warrant that any of the materials on its website are accurate, complete or current. Affinitweet may make changes to the materials contained on its website at any time without notice. However Affinitweet does not make any commitment to update the materials.",
+      h6: 'Links',
+      p4: "Affinitweet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Affinitweet of the site. Use of any such linked website is at the user's own risk.",
+      h7: 'Modifications',
+      p5: 'Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.',
+      h8: 'Governing Law',
+      p6: 'These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.',
+    },
+
+    /* Data and privacy page */
+    privacy: {
+      title: 'Data and privacy',
+      description: 'Information on how we retrieve, analyze and store your data.',
+      intro: 'We take the privacy of data very seriously and in the course of our business, we want to inform our users about what we do with it. You will find below all the necessary information concerning the storage and processing of this data. Information about cookies is also available on {thatPage}.',
+      storage: 'Storage',
+      personalData: 'Personal data',
+      p1: 'When you log into Affinitweet, we collect the information from your Twitter profile that we need in order to offer you our services. Among this information, we store your:',
+      'l1-1': 'unique Twitter ID',
+      'l1-2': 'username (@)',
+      'l1-3': 'name',
+      'l1-4': 'authentication token',
+      'l1-5': 'authentication token secret',
+      'l1-6': 'language',
+      p2: 'The other information you can see on your profile is temporarily stored in your session, just log out to delete it.',
+      i1: 'Information: these data can be deleted in their entirety and immediately on simply clicking on {button} at the bottom of {yourProfile}.',
+      results: 'Results',
+      p3: 'By default, Affinitweet does not store the results of what you do. However, you can activate this option to have a history of your results in your profile. Among this information, we store:',
+      'l2-1': 'the user to whom the result belongs',
+      'l2-2': 'the name of the feature',
+      'l2-3': 'the timestamp of the result',
+      i2: 'Information: these data can be deleted in their entirety and immediately by simply clicking on {button} at the bottom of {yourProfile}.',
+      computing: 'Processing',
+      p4: 'When you perform the various features present on the site, we make calls to the Twitter API with your previously stored tokens.',
+      i3: 'Information: we use your tokens to be able being as accurate as possible in our results. Thus, if you follow one or more users with a protected account for example, we will be able to include them in the results if necessary.',
+      p5: "Here's what we can be led to get:",
+      'l3-1': 'your feed',
+      'l3-2': 'your tweets/retweets',
+      'l3-3': 'your mentions',
+      'l3-4': 'your followers',
+      'l3-5': 'your followings',
+      p6: 'This information is only collected and processed, we do not store it.',
+      publish: 'Publication',
+      p7: 'When you log in to Affinitweet, we ask for basic read access to your account and write access. We will not carry out any action without your express request by activating an option from the site.',
+      i4: 'Information: you can revoke the access you gave us when you logged in at any time from your {yourTwitterProfile}.',
+      autoTweet: 'Automatic tweet',
+      p8: 'In order to be able to use certain features, we may ask you to enable the automatic tweet option for results. If you agree to enable this option, a tweet will be published for each result with the generated image.',
+      i5: 'Information: you can deactivate this option at any time from {yourProfile} in the {button} section.',
+      question: 'Any questions?',
+      p9: 'If you have any questions about Affinitweet, please do not hesitate to contact us via Twitter or email, we will be happy to answer you!',
+      thatPage: 'this page',
+      yourProfile: 'your profile',
+      yourTwitterProfile: 'your Twitter profile',
+    },
+
+  },
+
+  /* Errors */
+  _er: {
+    cooldown: 'Ця особливість має %{cooldown} секунд перезарядки. Будь ласка, пробуйте ще раз через ',
+    unknown: 'Виникла помилка. Нашу команду сповіщено.',
+    unknownFeature: 'Невідома особливість.',
+    unavailableFeature: 'Недоступна особливість.',
+    betaFeature: "Ви не можете використовувати бета-особливості, поки ви не є учасником бета-тестування.",
+    invalidEmail: 'Неправильна електронна пошта.',
+    selfUsername: 'Введіть інший нікнейм, а не свій.',
+    badUsername: 'Неправильне ім’я користувача.',
+    notEnoughData: 'Не вистачає твітів для аналізування.',
+    errorWhileRendering: 'Виникла помилка при створенні зображення.',
+    accountProtected: "Ви не можете використовувати цю особливість, поки ваша обліківка закрита.",
+    targetAccountProtectedAndNotFollowing: "Ви не можете використовувати цю особливість, поки вибраний користувач має закриту обліківку і не стежить за вами.",
+    timeout: 'Час очікування перевищено.',
+    twitterError: 'Твітер повернув помилку:',
+    twitterErrors: {
+      32: 'Не вдалося ідентифікувати вас.',
+      34: 'Схоже, що цієї сторінки не існує.',
+      50: 'Користувача не знайдено.',
+      63: 'Користувача тимчасово заблоковано.',
+      64: 'Your account is suspended and is not permitted to access this feature.',
+      87: 'Client is not permitted to perform this action.',
+      88: 'Rate limit exceeded. Retry in 15 minutes',
+      89: 'Недійсний токен або його термін дії якого минув. Будь ласка, підключіться знову.',
+      99: 'Unable to verify your credentials.',
+      130: 'Over capacity.',
+      131: 'Зовішня помилка.',
+      135: 'Не вдалося ідентифікувати вас.',
+      144: 'Не знайдено статуса з таким ідентифікатором.',
+      179: 'На жаль, ви не маєте права бачити цей статус.',
+      185: 'Користувач перевищив обмеження щоденного оновлення статусу.',
+      186: 'Твіт має бути трохи коротшим',
+      187: 'Статус є дублікатом.',
+      220: 'Ваші облікові дані не дозволяють отримати доступ до цього ресурсу.',
+      261: 'Застосунок не може виконувати дії запису.',
+      326: 'Для захисту наших користувачів від спаму, ця обліківка тимчасово заблокована.',
+    },
+  },
+
+} 
